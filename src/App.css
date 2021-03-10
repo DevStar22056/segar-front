@@ -1,0 +1,101 @@
+.app-main {
+    /*padding: 20px 0;*/
+}
+
+.ReactPasswordStrength-input {
+    width: calc(70% - 28px) !important;
+}
+
+.ReactPasswordStrength-strength-desc {
+    width: 30% !important;
+    top: 3px !important;
+}
+
+.ReactPasswordStrength-strength-bar {
+    height: 5px !important;
+    border-radius: 5px;
+}
+
+.MuiOutlinedInput-inputMarginDense-405 {
+    padding: 18.5px 14px !important;
+}
+
+/* shake */
+.shake-move {
+    animation: shake 0.82s cubic-bezier(.36, .07, .19, .97) both;
+    transform: translate3d(0, 0, 0);
+    backface-visibility: hidden;
+    perspective: 1000px;
+}
+
+@keyframes shake {
+    10%, 90% {
+        transform: translate3d(-1px, 0, 0);
+    }
+
+    20%, 80% {
+        transform: translate3d(2px, 0, 0);
+    }
+
+    30%, 50%, 70% {
+        transform: translate3d(-4px, 0, 0);
+    }
+
+    40%, 60% {
+        transform: translate3d(4px, 0, 0);
+    }
+}
+
+/*
+UPLOADER
+*/
+.upload {
+    padding: 25px;
+    height: 250px;
+    display: grid;
+    align-content: center;
+    background: #f0f0f0;
+    border: dashed;
+    border-color: #1e69b8;
+}
+
+.dropZoneWrapper > div p {
+    font-size: 16px !important;
+}
+
+.dropZoneWrapper > div {
+    /*background-color: #000;*/
+    min-height: 120px;
+}
+
+.MuiAppBar-root {
+    z-index: 1200 !important;
+}
+
+.MuiTable-root {
+    min-width: auto !important;
+}
+
+.MuiTableRow-root:hover {
+    /*background: #cde6ff;*/
+    /*outline: 1px solid;*/
+}
+
+.MuiTableRow-root {
+    cursor: pointer;
+}
+
+.over-helper {
+    /*position: absolute;*/
+    background-color: #fff;
+    color: #000;
+    min-height: 97px;
+    z-index: 1000;
+    width: 100%;
+    /*border: 5px solid #1e69b8;*/
+    padding: 10px;
+}
+
+.MuiPaper-root {
+    position: relative;
+}
